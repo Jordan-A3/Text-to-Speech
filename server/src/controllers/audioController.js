@@ -6,11 +6,13 @@ const fs = require('fs');
 const TextToSpeechV1 = require('ibm-watson/text-to-speech/v1');
 const { IamAuthenticator } = require('ibm-watson/auth');
 
+const data = require('../apiKeys.json');
+
 const textToSpeech = new TextToSpeechV1({
   authenticator: new IamAuthenticator({
-    apikey: 'FCzxQiWS4CERpIgLNOF8S_eFpUWqKefvYI2OHsg77k05',
+    apikey: data.apikey,
   }),
-  serviceUrl: 'https://api.us-south.text-to-speech.watson.cloud.ibm.com/instances/5e956e06-0a22-4689-bfcf-6677649e5430',
+  serviceUrl: data.url
 });
 
 
