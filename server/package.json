@@ -1,0 +1,22 @@
+{
+  "name": "Comments",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "ibm-watson": "^6.0.2",
+    "knex": "^0.21.17",
+    "mysql2": "^2.2.5",
+    "node-aplay": "^1.0.3",
+    "sound-play": "^1.1.0",
+    "watson-developer-cloud": "^4.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
