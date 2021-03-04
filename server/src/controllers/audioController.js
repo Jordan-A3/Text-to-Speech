@@ -6,7 +6,7 @@ const fs = require('fs');
 const TextToSpeechV1 = require('ibm-watson/text-to-speech/v1');
 const { IamAuthenticator } = require('ibm-watson/auth');
 
-const data = require('../apiKeys.json');
+const data = require('../../credencials/watson-nlu.json');
 
 const textToSpeech = new TextToSpeechV1({
   authenticator: new IamAuthenticator({

@@ -1,2 +1,2 @@
 /node_modules
-/src/apiKeys.json
+/credentials/watson-nlu.json
