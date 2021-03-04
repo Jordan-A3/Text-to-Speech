@@ -1,3 +1,2 @@
 /node_modules
-/comment-audio.wav
-/apiKeys.json
+/src/apiKeys.json
